@@ -1,0 +1,163 @@
+body {
+  font-family: Avenir, Arial, serif;
+  font-size: 100%;
+  background-color: #6b4633;
+  color: #F5E9CD;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  text-align: center;
+}
+h1{
+  margin: 10px;
+  padding: 1em;
+  border-radius: 25px;
+  border: 1px solid;
+  background-color: #253812;
+  color: #F5E9CD;
+  border-color: #E2B147;
+}
+
+header nav {
+  text-align: center;
+  background-color: #e09d30;
+  margin: 10px;
+  padding: 1em;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #ffae74;
+
+}
+
+a:link, a:visited {
+  color: #2e1b03;
+}
+
+p a:link{
+  color:#6b4633;
+}
+
+a:hover, a:active {
+  color:#ffdca1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  border: 1px solid;
+  padding: .5em 1em;
+  border-radius: .5em;
+  margin: .25em;
+  color: #8b3b14;
+  background-color: #ba621c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  flex-grow: 2;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 10px;
+  padding: 1em;
+  border-radius: 25px;
+  flex:2;
+  border: 1px solid;
+  border-color: #ffae74;
+  background-color: #ba621c;
+}
+
+h3 {
+  color: #ffdca1;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+  color: #253812;
+  background-color: #e09d30;
+  margin-top: auto;
+  margin: 10px;
+  padding: 1em;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #ffdca1;
+}
+
+
+aside {
+  background-color: #e09d30;
+  min-width: 300px;
+  flex:1;
+  text-align: center;
+  color: #6b4633;
+}
+
+form {
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #ffdca1;
+  padding: 1em;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.formFeed {
+  color: #e09d30;
+  font-style: oblique;
+
+}
+
+.submit {
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+}
+
+.mainLab{
+  color: #253812;
+  font-weight: bold;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .page-body {
+    flex-direction: column;
+  }
+  .label {
+    flex-direction: column;
+
+  }
+}
