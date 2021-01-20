@@ -1,12 +1,3 @@
-# Project 3
+# Project Description
 
-See the course web page for the project's requirements.
-
-# Submission Instructions
-
-See the respective **submit-_milestone_.md** file for each submission.
-
-| Submission  | Instructions                       |
-| ----------- | ---------------------------------- |
-| Milestone 1 | [submit-m1.md](submit-m1.md)       |
-| Final       | [submit-FINAL.md](submit-FINAL.md) |
+Basic 5 page website using HTML, CSS, and JavaScript to give information on the Ithaca Apple Harvest Festival.
