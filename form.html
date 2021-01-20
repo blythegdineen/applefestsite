@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Get Involved!</title>
+  <link rel="stylesheet" type="text/css" href="styles/site.css"/>
+  <script src="scripts/jquery-3.5.1.js" type="text/javascript"></script>
+  <script src="scripts/validation.js" type="text/javascript" async></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+
+      <h1>Apple Harvest Festival 2018</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Main</a></li>
+          <li><a href="info.html">Dates & Location</a></li>
+          <li><a href="people.html">Events & People</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="form.html">Get Involved!</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page-body">
+      <main>
+        <h1> Get involved with our festival! </h1>
+        <p> Thanks for showing interest in our festival! We encourage members of the community to participate in the festival however possible. In particular, we encourage Cornell University and Ithaca College students to get involved in Ithaca through volunteering. We're looking for friendly, helpful, and eager volunteers! If this sounds like you, please fill out the information below and we'll reach out to you shortly with your assignment. </p>
+
+        <form id = "volunteer-form"  method="post" action="https://www.cs.cornell.edu/courses/cs1300/2020fa/submit.php" novalidate>
+
+          <!-- name (r)-->
+          <span id="nameFeed"  class="hidden">∗ Please enter a name. </span>
+
+          <div class="label">
+            <abbr title="required">*</abbr><label for="name" class = "mainLab">Name: </label>
+            <input type ="text" id="name" name="name" required/>
+          </div>
+
+          <!-- email (r)-->
+          <span id="emailFeed" class="hidden">∗ Please enter an email address.</span>
+
+          <div class="label">
+            <abbr title="required">*</abbr><label for="email" class = "mainLab">Email: </label>
+            <input type="email" id="email" name="email" required/>
+          </div>
+
+
+          <!-- type -->
+          <div class="label">
+            <label for="volunteer" class = "mainLab">Type of volunteering you'd like to do: </label>
+            <select id="volunteer" name="volunteer">
+              <option value="none">No preference</option>
+              <option value="clean">Cleanup</option>
+              <option value="set">Setup</option>
+              <option value="animal">Animal care</option>
+              <option value="game">Game station</option>
+            </select>
+          </div>
+
+
+          <span id="prevFeed" class="hidden">∗ Please indicate whether you've volunteered for us before.</span>
+
+          <div class="label">
+            <abbr title="required">*</abbr>
+            <label class ="mainLab">Have you volunteered for us before: </label>
+            <input type="radio" id="yes" name="prev" value="yes" required>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="prev" value="no">
+            <label for="no">No</label><br>
+          </div>
+
+        <!-- time (r)-->
+          <span id="timeFeed" class="hidden">∗ Please select a time of day.</span>
+
+          <div class="label">
+            <abbr title="required">*</abbr>
+            <label class = "mainLab" >Time of day available: </label>
+            <input type="radio" id="morning" name="time" value="morning" required >
+            <label for="morning">Morning (8:00am-12:00pm)</label><br>
+            <input type="radio" id="afternoon" name="time" value="afternoon">
+            <label for="afternoon">Afternoon (12:00pm-4:00pm)</label><br>
+            <input type="radio" id="night" name="time" value="night">
+            <label for="night">Night (4:00pm-7:00pm)</label>
+          </div>
+
+      <!-- day -->
+          <div class="label">
+            <label class = "mainLab" >Preferred days for volunteering: </label>
+            <input type="checkbox" id="day1" name="day1" value="friday">
+            <label for="day1"> Friday, September 28th </label><br>
+            <input type="checkbox" id="day2" name="day2" value="saturday">
+            <label for="day2"> Saturday, September 29th </label><br>
+            <input type="checkbox" id="day3" name="day3" value="sunday">
+            <label for="day3"> Sunday, September 30th </label><br>
+          </div>
+          <button type="submit" class="submit">Submit</button>
+
+        </form>
+
+
+        <div class="contact">
+              <p>Contact the Downtown Ithaca Alliance:<br><br>
+                 Phone: (607) 277-8679<br>
+                 Fax: (607) 277-8691<br>
+                 Email: info@downtownithaca.com</p>
+
+        </div>
+      </main>
+
+
+
+      <aside>
+          <!-- Source for all three images: https://cornellsun.com/2019/10/02/apple-harvest-festival-a-snapshot-of-life-upstate/ -->
+          <img src="images/f8.png" alt="photo1">
+<cite><a href="https://cornellsun.com/2019/10/02/apple-harvest-festival-a-snapshot-of-life-upstate/">source</a></cite>
+          <!-- Source for all three images: https://cornellsun.com/2019/10/02/apple-harvest-festival-a-snapshot-of-life-upstate/ -->
+          <img src="images/f9.png" alt="photo2">
+<cite><a href="https://cornellsun.com/2019/10/02/apple-harvest-festival-a-snapshot-of-life-upstate/">source</a></cite>
+          <!-- Source for all three images: https://cornellsun.com/2019/10/02/apple-harvest-festival-a-snapshot-of-life-upstate/ -->
+          <img src="images/f10.png" alt="photo3">
+          <cite><a href="https://cornellsun.com/2019/10/02/apple-harvest-festival-a-snapshot-of-life-upstate/">source</a></cite>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
